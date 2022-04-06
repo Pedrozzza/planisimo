@@ -10,14 +10,13 @@
                     <div class="grid lg:grid-cols-2 lg:gap-8 mb-16">
                         <div>
                             <p class="my-4 lg:my-8 font-bold z-50 text-base sm:text-xl md:text-xl lg:text-2xl 2xl:text-3xl">
-                                Kontaktní údaje:
+                                Kontaktní osoba:
                             </p>
                             <div>
                                 <ul class="text-base md:text-xl mb-6">
-                                    <li class="mb-4 hover:opacity-50"><a href="mailto:info@planisimo.cz"><font-awesome-icon :icon="['fas', 'envelope']" size="lg" class="mr-4 text-goldenrod" style="width: 30px"/>info@planisimo.cz</a></li>
+                                    <li class="mb-4"><font-awesome-icon :icon="['fas', 'user']" size="lg" class="mr-4 text-goldenrod" style="width: 30px"/>Ing. Richard Kubiš</li>
                                     <li class="mb-4 hover:opacity-50"><a href="tel:+420776150957"><font-awesome-icon :icon="['fas', 'mobile-alt']" size="lg" class="mr-4 text-goldenrod" style="width: 30px"/>+420 776 150 957</a></li>
-                                    <li class="mb-4"><font-awesome-icon :icon="['fas', 'map-marker-alt']" size="lg" class="mr-4 text-goldenrod" style="width: 30px"/>Příční 560, 664 82 Říčany</li>
-                                    <li class="mb-4 hover:opacity-50"><a href="https://planisimo.cz/" target="_blank"><font-awesome-icon :icon="['fas', 'globe']" size="lg" class="mr-4 text-goldenrod" style="width: 30px"/>www.planisimo.cz</a></li>
+                                    <li class="mb-4 hover:opacity-50"><a href="mailto:info@planisimo.cz"><font-awesome-icon :icon="['fas', 'envelope']" size="lg" class="mr-4 text-goldenrod" style="width: 30px"/>info@planisimo.cz</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -46,9 +45,9 @@
 <script>
 import WelcomeLayout from "../Layouts/WelcomeLayout";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faEnvelope, faMobileAlt, faMapMarkerAlt, faGlobe } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faMobileAlt, faMapMarkerAlt, faGlobe, faUser } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faEnvelope, faMobileAlt, faMapMarkerAlt, faGlobe);
+library.add(faEnvelope, faMobileAlt, faMapMarkerAlt, faGlobe, faUser);
 
 export default {
     name: "Contact",

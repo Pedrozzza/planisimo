@@ -8,8 +8,18 @@
                     </h1>
                     <ul>
                         <li>
-                            <a href="#" target="_blank" class="mb-4 z-50 text-base sm:text-xl md:text-xl lg:text-2xl 2xl:text-3xl underline hover:opacity-50">
-                                modelová simulace výroby
+                            <a href="https://www.plm.automation.siemens.com/global/en/products/manufacturing-planning/plant-simulation-throughput-optimization.html" target="_blank" class="mb-4 z-50 text-base sm:text-xl font-bold md:text-xl lg:text-2xl 2xl:text-3xl hover:opacity-50">
+                                Plant Simulation
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=luGX--JMBq8" target="_blank" class="mb-4 z-50 text-base sm:text-xl md:text-xl lg:text-2xl 2xl:text-3xl hover:opacity-50">
+                                Simulace výroby skel
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=zxTLqMg0SW8" target="_blank" class="mb-4 z-50 text-base sm:text-xl md:text-xl lg:text-2xl 2xl:text-3xl hover:opacity-50">
+                                Odhalení úzkého místa v procesu
                             </a>
                         </li>
                     </ul>
@@ -31,7 +41,16 @@ export default {
 </script>
 
 <style scoped>
- ul {
-     list-style: disc;
- }
+ul {
+    list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: goldenrod; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
 </style>

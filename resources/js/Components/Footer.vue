@@ -9,9 +9,9 @@
                         <font-awesome-icon :icon="['fas', 'phone-square']" size="lg" class="text-sm md:text-xl xl:text-xl 2xl:text-2xl"/>
                         <span class="ml-2 hover:opacity-50" style="color: white">+420 776 150 957</span>
                     </a>
-                    <a class="text-goldenrod ml-4 shadow-xl" href="mailto:info@planisimo.cz">
+                    <a class="text-goldenrod ml-4 shadow-xl" href="mailto:richard.kubis@planisimo.cz">
                         <font-awesome-icon :icon="['fas', 'envelope']" size="lg" class="text-sm md:text-xl xl:text-xl 2xl:text-2xl"/>
-                        <span class="ml-2 hover:opacity-50" style="color: white">info@planisimo.cz</span>
+                        <span class="ml-2 hover:opacity-50" style="color: white">richard.kubis@planisimo.cz</span>
                     </a>
                 </div>
                 <div class="" style="color: white">
