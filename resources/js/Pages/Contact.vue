@@ -16,7 +16,7 @@
                                 <ul class="text-base md:text-xl mb-6">
                                     <li class="mb-4"><font-awesome-icon :icon="['fas', 'user']" size="lg" class="mr-4 text-goldenrod" style="width: 30px"/>Ing. Richard Kubiš</li>
                                     <li class="mb-4 hover:opacity-50"><a href="tel:+420776150957"><font-awesome-icon :icon="['fas', 'mobile-alt']" size="lg" class="mr-4 text-goldenrod" style="width: 30px"/>+420 776 150 957</a></li>
-                                    <li class="mb-4 hover:opacity-50"><a href="mailto:info@planisimo.cz"><font-awesome-icon :icon="['fas', 'envelope']" size="lg" class="mr-4 text-goldenrod" style="width: 30px"/>info@planisimo.cz</a></li>
+                                    <li class="mb-4 hover:opacity-50"><a href="mailto:richard.kubis@planisimo.cz"><font-awesome-icon :icon="['fas', 'envelope']" size="lg" class="mr-4 text-goldenrod" style="width: 30px"/>richard.kubis@planisimo.cz</a></li>
                                 </ul>
                             </div>
                         </div>
